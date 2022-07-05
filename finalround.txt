@@ -1,0 +1,4 @@
+Final Round rules:
+You are given the letters r, s, t, l, n, and e, to start.
+You may pick 3 more consonants and 1 vowel.
+To win the final round and win the final cash prize, you will need to guess the word.
