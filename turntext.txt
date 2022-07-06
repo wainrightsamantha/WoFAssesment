@@ -1,1 +1,1 @@
-It is {playerNum+1}'s turn. {name} currently have ${roundtotal}. \n{word}
+It is {playerNum}'s turn. {name} currently have ${roundtotal}. \n{word}
