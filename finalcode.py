@@ -33,13 +33,18 @@ finalroundtext = ""
 
 def readDictionaryFile():
     global dictionary
-    dict_file = open("dictionary.txt", "r")
+    dict_file = open("testd.txt", "r")
     dictionary = dict_file.read().splitlines()
     dict_file.close()
 
-    for word in dictionary:
-        dictionary.append(word)
+    
+    # for word in dictionary:
+    #     dictionary.append(word)
+    #     print(word)
+    #     print(dictionary)
 
+    
+    # print("this is line 49")
 ###
 
 
@@ -94,8 +99,6 @@ def readWheelTxtFile():
     wheellist = wheel_file.read().splitlines()
     wheel_file.close()
 
-    for wedge in wheellist:
-        wheellist.append(wedge)
 
 ###
 
@@ -134,10 +137,18 @@ def gameSetup():
     # Read in Turn Text Files
     global turntext
     global dictionary
-        
+
+
     readDictionaryFile()
+    #working to here.
+    
+  
     readTurnTxtFile()
+
+
+
     readWheelTxtFile()
+
     getPlayerInfo()
     readRoundStatusTxtFile()
     readFinalRoundTxtFile()
