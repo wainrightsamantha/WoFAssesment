@@ -1,5 +1,1 @@
-Add your text here and use string.format or string.format_map
-with {variables} to template strings
-
-what is this like the options for their turn?
-like spin wheel, guess word, buy vowel?
+It is {playerNum+1}'s turn. {name} currently have ${roundtotal}. \n{roundUnderscoreWord}
